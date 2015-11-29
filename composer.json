@@ -3,7 +3,7 @@
   "description": "A simple Magento module which adds a banner to your sites header.",
   "type": "magento-module",
   "license": "BSD-3-Clause",
-  "homepage": "https://github.com/colinmurphy/studioforty9-canonical",
+  "homepage": "https://github.com/colinmurphy/studioforty9-banner",
   "keywords": ["magento", "seo", "banner"],
   "authors": [
     {
@@ -14,7 +14,7 @@
     }
   ],
   "source": {
-    "url": "https://github.com/colinmurphy/studioforty9-canonical.git",
+    "url": "https://github.com/colinmurphy/studioforty9-banner.git",
     "type": "git",
     "reference": "origin/master"
   },
