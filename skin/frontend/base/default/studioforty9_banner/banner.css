@@ -1,0 +1,16 @@
+#studioforty9-banner {
+    background: #333;
+    padding: 10px 0;
+    text-align: center;
+    }
+#studioforty9-banner p {
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    }
+
+#studioforty9-banner p a {
+    color: #fff;
+    text-decoration: underline;
+    }
