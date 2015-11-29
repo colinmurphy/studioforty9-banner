@@ -1,0 +1,30 @@
+{
+  "name": "colinmurphy/studioforty9-banner",
+  "description": "A simple Magento module which adds a banner to your sites header.",
+  "type": "magento-module",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/colinmurphy/studioforty9-canonical",
+  "keywords": ["magento", "seo", "banner"],
+  "authors": [
+    {
+      "name": "Colin Murphy",
+      "email": "colin@studioforty9.com",
+      "homepage": "http://www.studioforty9.com/",
+      "role": "developer"
+    }
+  ],
+  "source": {
+    "url": "https://github.com/colinmurphy/studioforty9-canonical.git",
+    "type": "git",
+    "reference": "origin/master"
+  },
+  "extra": {
+    "map": [
+      ["app/code/community/Studioforty9", "app/code/community/Studioforty9"],
+      ["app/etc/modules/Studioforty9_Banner.xml", "app/etc/modules/Studioforty9_Banner.xml"],
+      ["app/design/frontend/base/default/template/studioforty9_banner", "app/design/frontend/base/default/template/studioforty9_banner"],
+      ["app/design/frontend/base/default/layout/studioforty9_banner.xml", "app/design/frontend/base/default/layout/studioforty9_banner.xml"],
+      ["skin/frontend/base/default/studioforty9_banner", "skin/frontend/base/default/studioforty9_banner"]
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addItem" ifconfig="studioforty9_banner/settings/enabled">
+                <type>skin_css</type>
+                <url>studioforty9_banner/banner.css</url>
+            </action>
+        </reference>
+        <reference name="after_body_start">
+            <block type="studioforty9_banner/banner" name="studioforty9.banner" before="-">
+                <action method="setTemplate" ifconfig="studioforty9_banner/settings/enabled">
+                    <template>studioforty9_banner/banner.phtml</template>
+                </action>
+            </block>
+        </reference>
+    </default>
+</layout>

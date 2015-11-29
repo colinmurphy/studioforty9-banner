@@ -1,0 +1,5 @@
+app/code/community/Studioforty9                                     app/code/community/Studioforty9
+app/etc/modules/Studioforty9_Banner.xml                             app/etc/modules/Studioforty9_Banner.xml
+app/design/frontend/base/default/template/studioforty9_banner       app/design/frontend/base/default/template/studioforty9_banner
+app/design/frontend/base/default/layout/studioforty9_banner.xml     app/design/frontend/base/default/layout/studioforty9_banner.xml
+skin/frontend/base/default/studioforty9_banner                      skin/frontend/base/default/studioforty9_banner
